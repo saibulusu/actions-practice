@@ -14,6 +14,8 @@
 
 1.0.7: Switch to pwd.
 
-1.0.8: Trying chmod +x with {PWD}
+1.0.8: Trying chmod +x with {PWD}.
 
-1.0.9: Trying ./
+1.0.9: Trying ./.
+
+1.0.10: Removing ./.
