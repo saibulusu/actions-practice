@@ -1,1 +1,3 @@
-change 1
+1.0.0: Created repository.
+
+1.0.1: Adding a pre-commit hook.
