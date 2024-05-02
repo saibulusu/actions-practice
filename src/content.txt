@@ -3,3 +3,5 @@
 1.0.1: Adding a pre-commit hook.
 
 1.0.2: Change 1.0.2.
+
+1.0.2: Change 1.0.3.
