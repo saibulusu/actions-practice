@@ -1,6 +1,8 @@
 echo "Hello, World!"
 
-# current_yaml=$(git show HEAD:.pipelines/azure.pipelines.yml)
+current_yaml=$(git show HEAD:.pipelines/azure.pipelines.yml)
+
+echo "$current_yaml"
 
 # main_yaml=$(git show origin/main:.pipelines/azure.pipelines.yml)
 
