@@ -9,4 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+          chmod u+x ./update-version
           ./update-version
