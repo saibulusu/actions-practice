@@ -19,3 +19,5 @@
 1.0.9: Trying ./.
 
 1.0.10: Removing ./.
+
+1.0.11: Adding a checkout step.
