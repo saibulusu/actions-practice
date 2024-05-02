@@ -27,3 +27,5 @@
 1.0.13: Trying $GITHUB.HEAD_REF.
 
 1.0.14: Removing branch name.
+
+1.0.15: Using main again, attempting to run script.
