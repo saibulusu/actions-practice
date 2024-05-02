@@ -22,4 +22,6 @@
 
 1.0.11: Adding a checkout step.
 
-1.0.12: Trying github.head_ref
+1.0.12: Trying github.head_ref.
+
+1.0.13: Trying $GITHUB.HEAD_REF.
