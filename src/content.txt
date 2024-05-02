@@ -9,3 +9,5 @@
 1.0.4: Change 1.0.4. Trying out github actions.
 
 1.0.5: Adding chmod u+x to main.yml.
+
+1.0.6: Added current-directory to main.yml.
