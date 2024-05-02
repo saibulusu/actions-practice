@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@$GITHUB.HEAD_REF
+        uses: actions/checkout
       - run: |
           pwd
           chmod +x ./update-version.sh
