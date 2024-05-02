@@ -7,8 +7,8 @@ jobs:
   if_merged:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
-    working-directory: ${GITHUB_WORKSPACE}
     steps:
       - run: |
+          echo {pwd}
           chmod u+x ./update-version
           ./update-version
