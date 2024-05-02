@@ -31,3 +31,5 @@
 1.0.15: Using main again, attempting to run script.
 
 1.0.16: Echo current yaml content.
+
+2.0.0: Updating to version 2.
