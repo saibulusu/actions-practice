@@ -1,8 +1,10 @@
 echo "Hello, World!"
 
 current_yaml=$(git show HEAD:.pipelines/azure.pipelines.yml)
+previous_yaml=$(git show HEAD~1:.pipelines/azure.pipelines.yml)
 
 echo "$current_yaml"
+echo "$previous_yaml"
 
 # main_yaml=$(git show origin/main:.pipelines/azure.pipelines.yml)
 

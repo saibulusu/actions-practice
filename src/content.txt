@@ -33,3 +33,5 @@
 1.0.16: Echo current yaml content.
 
 2.0.0: Updating to version 2.
+
+2.0.1: Echoing previous & current yml.
