@@ -13,3 +13,5 @@
 1.0.6: Added current-directory to main.yml.
 
 1.0.7: Switch to pwd.
+
+1.0.8: Trying chmod +x with {PWD}
