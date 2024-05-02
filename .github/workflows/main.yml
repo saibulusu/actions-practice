@@ -10,4 +10,4 @@ jobs:
     steps:
       - run: |
           pwd
-          chmod +x ./update-version.sh
+          chmod +x update-version.sh
