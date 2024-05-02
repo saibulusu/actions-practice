@@ -10,5 +10,3 @@ jobs:
     steps:
       - run: |
           echo {pwd}
-          chmod u+x ./update-version
-          ./update-version
