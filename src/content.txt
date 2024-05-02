@@ -21,3 +21,5 @@
 1.0.10: Removing ./.
 
 1.0.11: Adding a checkout step.
+
+1.0.12: Trying github.head_ref
