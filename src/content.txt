@@ -39,3 +39,5 @@
 2.0.2: Adding fetch-depth to main.yml.
 
 2.0.3: Trying to get version from azure.pipelines.yml.
+
+2.0.4: Trying shyaml.
