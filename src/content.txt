@@ -69,3 +69,5 @@
 2.0.17: Trying to remove git warnings about switching branches.
 
 2.0.18: Echo patch number.
+
+3.0.0: Testing it won't automatically change upon changing major number.
