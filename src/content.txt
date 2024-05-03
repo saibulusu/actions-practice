@@ -55,3 +55,5 @@
 2.0.10: Adding quotations.
 
 2.0.11: Echoing current version.
+
+2.0.12: Spaces instead of tabs.
