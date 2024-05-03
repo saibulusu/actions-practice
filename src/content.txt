@@ -41,3 +41,5 @@
 2.0.3: Trying to get version from azure.pipelines.yml.
 
 2.0.4: Trying shyaml.
+
+2.0.5: Trying to install shyaml.

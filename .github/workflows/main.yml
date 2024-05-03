@@ -14,5 +14,6 @@ jobs:
           fetch-depth: 3
       - run: |
           pwd
+          pip install shyaml
           chmod +x ./update-version.sh
           ./update-version.sh
