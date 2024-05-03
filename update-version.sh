@@ -32,7 +32,7 @@ fi
 
 new_content=$(sed "s/^version:.*/version: $new_version/" .pipelines/azure.pipelines.yml)
 
-$new_content > .pipelines/azure.pipelines.yml
+echo $new_content
 
 git config user.email "sai.bulusu@gmail.com"
 git config user.name "saibulusu"
