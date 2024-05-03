@@ -51,3 +51,5 @@
 2.0.8: Trying to use HEAD and path directly.
 
 2.0.9: Trying to pass in current_yaml.
+
+2.0.10: Adding quotations.
