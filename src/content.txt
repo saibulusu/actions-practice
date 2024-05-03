@@ -49,3 +49,5 @@
 2.0.7: Removing cat, using quotation.
 
 2.0.8: Trying to use HEAD and path directly.
+
+2.0.9: Trying to pass in current_yaml.
