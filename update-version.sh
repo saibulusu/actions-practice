@@ -1,17 +1,14 @@
-# for defining
 calculate_new_version(){
     patch=$(echo $1 | cut -d '.' -f3 | cut -d '"' -f1)
     minor=$(echo $1 | cut -d '.' -f2)
     major=$(echo $1 | cut -d '.' -f1 | cut -d '"' -f2)
 
-    echo "{$major}.{$minor}.{$patch++}"
+    ((patch++))
+
+    echo "$major.$minor.$patch"
 }
 
-# for calling
 echo "Hello, World!"
-
-# current_yaml=$(git show HEAD:.pipelines/azure.pipelines.yml)
-# previous_yaml=$(git show HEAD~1:.pipelines/azure.pipelines.yml)
 
 current_version=$(yq '.variables.version' .pipelines/azure.pipelines.yml)
 echo "current version: $current_version"
@@ -32,8 +29,3 @@ if [ "$previous_version" == "$current_version" ]; then
 else
     echo "version already updated, no need to update further"
 fi
-
-# main_version=$(echo "$main_yaml" | yq eval ".variables.version")
-
-# echo "Current branch version: $current_version"
-# echo "Main branch version: $main_version"
