@@ -25,7 +25,9 @@ git checkout HEAD
 if [ "$previous_version" == "$current_version" ]; then
     echo "versions match, have to update now"
     new_version=$(calculate_new_version $current_version)
-    echo $new_version
+    echo "new version: $new_version"
 else
     echo "version already updated, no need to update further"
 fi
+
+yq eval ".variables.version = $new_version" -i .pipelines/azure.pipelines.yml
