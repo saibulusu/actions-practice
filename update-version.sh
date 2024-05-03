@@ -1,7 +1,6 @@
 # for defining
 calculate_new_version(){
-    IFS="." read -a array <<< $1
-    echo array[2]
+    echo $1 | cut -d ',' -f3
 }
 
 # for calling
@@ -24,7 +23,7 @@ git checkout HEAD
 
 if [ "$previous_version" == "$current_version" ]; then
     echo "versions match, have to update now"
-    new_version=$(calculate_new_version $current_version)
+    calculate_new_version $current_version
 else
     echo "version already updated, no need to update further"
 fi
