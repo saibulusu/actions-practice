@@ -36,4 +36,4 @@ git config user.email "sai.bulusu@gmail.com"
 git config user.name "saibulusu"
 git add -A
 git commit -m "Updating to $new_version"
-git push
+git push origin HEAD:main
