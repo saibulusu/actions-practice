@@ -6,6 +6,8 @@ echo "Hello, World!"
 current_version=$(yq '.variables.version' .pipelines/azure.pipelines.yml)
 echo "current version: $current_version"
 
+git config --global advice.detachedHead false
+
 git stash
 git checkout HEAD~1
 previous_version=$(yq '.variables.version' .pipelines/azure.pipelines.yml)

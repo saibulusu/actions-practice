@@ -65,3 +65,5 @@
 2.0.15: Comparing strings.
 
 2.0.16: Still comparing strings.
+
+2.0.17: Trying to remove git warnings about switching branches.
