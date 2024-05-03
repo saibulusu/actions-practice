@@ -47,3 +47,5 @@
 2.0.6: Trying cat and changing name of step within main.yml.
 
 2.0.7: Removing cat, using quotation.
+
+2.0.8: Trying to use HEAD and path directly.
