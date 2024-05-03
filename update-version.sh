@@ -1,8 +1,8 @@
 # for defining
 calculate_new_version(){
-    local patch=$($1 | cut -d '.' -f3 | cut -d '"' -f1)
-    local minor=$($1 | cut -d '.' -f2)
-    local major=$($1 | cut -d '.' -f1 | cut -d '"' -f2)
+    patch=$(echo $1 | cut -d '.' -f3 | cut -d '"' -f1)
+    minor=$(echo $1 | cut -d '.' -f2)
+    major=$(echo $1 | cut -d '.' -f1 | cut -d '"' -f2)
 
     echo "{$major}.{$minor}.{$patch++}"
 }
