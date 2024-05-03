@@ -30,4 +30,4 @@ else
     echo "version already updated, no need to update further"
 fi
 
-yq eval ".variables.version = $new_version" -i .pipelines/azure.pipelines.yml
+yq eval '.variables.version = env(new_version)' -i .pipelines/azure.pipelines.yml
