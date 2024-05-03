@@ -30,7 +30,7 @@ else
     echo "version already updated, no need to update further"
 fi
 
-sed -i "s/^version:.*/version: $new_version/" .pipelines/azure.pipelines.yml
+sed -i "s/^version:.*/version: $new_version/" .pipelines/azure.pipelines.yml > .pipelines/azure.pipelines.yml
 
 cat .pipelines/azure.pipelines.yml
 
