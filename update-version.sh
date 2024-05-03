@@ -1,6 +1,6 @@
 # for defining
 calculate_new_version(){
-    return $1 | cut -d '.' -f3 | cut -d '"' -f1
+    echo $1 | cut -d '.' -f3 | cut -d '"' -f1
 }
 
 # for calling
