@@ -14,6 +14,6 @@ jobs:
           fetch-depth: 3
       - name: Run-Script
         run: |
-          pip install shyaml
+          pip install yq
           chmod +x ./update-version.sh
           ./update-version.sh

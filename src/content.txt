@@ -53,3 +53,5 @@
 2.0.9: Trying to pass in current_yaml.
 
 2.0.10: Adding quotations.
+
+2.0.11: Echoing current version.
