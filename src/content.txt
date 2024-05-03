@@ -59,3 +59,5 @@
 2.0.12: Spaces instead of tabs.
 
 2.0.13: Aiming to retrieve previous version.
+
+2.0.14: Adding git stash.
