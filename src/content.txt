@@ -45,3 +45,5 @@
 2.0.5: Trying to install shyaml.
 
 2.0.6: Trying cat and changing name of step within main.yml.
+
+2.0.7: Removing cat, using quotation.
