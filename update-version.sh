@@ -34,6 +34,6 @@ sed -i "s/^version:.*/version: $new_version/" .pipelines/azure.pipelines.yml
 
 git config user.email "sai.bulusu@gmail.com"
 git config user.name "saibulusu"
-git add -A
+git add -f .pipelines/azure.pipelines.yml
 git commit -m "Updating to $new_version"
-git push origin HEAD:main
+git push
