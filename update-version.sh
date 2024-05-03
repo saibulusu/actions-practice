@@ -13,7 +13,7 @@ echo "previous version: $previous_version"
 
 git checkout HEAD
 
-if ["$previous_version" = "$current_version"]; then
+if [ "$previous_version" == "$current_version" ]; then
     echo "have to update version now"
 else
     echo "no need to update"
