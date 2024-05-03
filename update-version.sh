@@ -20,7 +20,7 @@ git checkout HEAD~1
 previous_version=$(yq '.variables.version' .pipelines/azure.pipelines.yml)
 echo "previous version: $previous_version"
 
-git checkout HEAD
+git checkout main
 
 if [ "$previous_version" == "$current_version" ]; then
     echo "versions match, have to update now"
