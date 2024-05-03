@@ -81,3 +81,5 @@
 3.0.4: Testing again.
 
 3.1.0: Testing it won't auto update if minor number is changed by user.
+
+3.1.1: Testing it won't auto update if patch number is changed by user.
