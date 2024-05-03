@@ -43,3 +43,5 @@
 2.0.4: Trying shyaml.
 
 2.0.5: Trying to install shyaml.
+
+2.0.6: Trying cat and changing name of step within main.yml.
