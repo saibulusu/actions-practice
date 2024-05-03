@@ -31,3 +31,6 @@ else
 fi
 
 sed -i "s/^version:.*/version: $new_version/" .pipelines/azure.pipelines.yml
+git add -A
+git commit -m "Updating to $new_version"
+git push
