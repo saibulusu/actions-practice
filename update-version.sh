@@ -30,9 +30,11 @@ else
     echo "version already updated, no need to update further"
 fi
 
-new_content=$(sed "s/^version:.*/version: $new_version/" .pipelines/azure.pipelines.yml)
+key="version"
+new_value=$new_version
+yaml_file=".pipelines/azure.pipelines.yml"
 
-echo $new_content
+sed -r "s/^(\\s*${key}\\s*:\\s*).*/\\1${new_value}/" -i "$yaml_file"
 
 git config user.email "sai.bulusu@gmail.com"
 git config user.name "saibulusu"
