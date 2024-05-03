@@ -61,3 +61,5 @@
 2.0.13: Aiming to retrieve previous version.
 
 2.0.14: Adding git stash.
+
+2.0.15: Comparing strings.
