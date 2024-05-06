@@ -83,3 +83,5 @@
 3.1.0: Testing it won't auto update if minor number is changed by user.
 
 3.1.1: Testing it won't auto update if patch number is changed by user.
+
+3.1.2: Testing it will update on a PR to the main branch.
