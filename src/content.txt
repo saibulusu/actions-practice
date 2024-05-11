@@ -89,3 +89,5 @@
 3.1.3: Testing using a version file.
 
 3.1.4: Testing using another account for updating version.
+
+3.1.5: Testing manual update.
