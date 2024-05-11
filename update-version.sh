@@ -27,8 +27,8 @@ if [ "$previous_version" == "$current_version" ]; then
 
     echo "$new_version" > VERSION
 
-    git config user.email "sai.bulusu@gmail.com"
-    git config user.name "saibulusu"
+    git config user.email "virtualclient@microsoft.com"
+    git config user.name "virtualclient-ms"
     git add -f VERSION
     git commit -m "Updating to $new_version"
     git push
