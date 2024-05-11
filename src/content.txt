@@ -91,3 +91,5 @@
 3.1.4: Testing using another account for updating version.
 
 3.1.5: Testing manual update.
+
+3.1.6: Adding a name to the action yml file.
